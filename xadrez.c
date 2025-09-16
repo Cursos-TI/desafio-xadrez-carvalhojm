@@ -11,7 +11,7 @@ void movimento_torre (int casas){
     // movimentação do bispo
 void movimento_bispo (int casas){
     if (casas > 0){
-        printf("Bisco - Cima, Direita\n");
+        printf("Bispo - Cima, Direita\n");
         movimento_bispo(casas - 1);
     }
 }
